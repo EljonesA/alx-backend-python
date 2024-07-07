@@ -6,6 +6,7 @@ from typing import Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    """ Corrected using mypy type checking """
     zoomed_in: List = [
             item for item in lst
             for _ in range(factor)
