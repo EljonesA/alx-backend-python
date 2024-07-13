@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 coroutine async_comprehension will collect 10 random numbers using an async
 comprehensing over async_generator, then return the 10 random numbers.
